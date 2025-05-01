@@ -42,7 +42,7 @@ import springcloudLogo from './assets/tech_logo/springcloud.png';
 import dockerLogo from './assets/tech_logo/docker.png';
 import mavenLogo from './assets/tech_logo/maven.png';
 import scikitLogo from './assets/tech_logo/scikit-learn.png';
-import tensorflowLogo from './assets/tech_logo/tensorFlow.png';
+import tensorflowLogo from './assets/tech_logo/tensor.png';
 import kerasLogo from './assets/tech_logo/keras.png';
 import pytorchLogo from './assets/tech_logo/pytorch.png';
 import xgboostLogo from './assets/tech_logo/xgboost.png';
