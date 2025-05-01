@@ -42,12 +42,12 @@ import springcloudLogo from './assets/tech_logo/springcloud.png';
 import dockerLogo from './assets/tech_logo/docker.png';
 import mavenLogo from './assets/tech_logo/maven.png';
 import scikitLogo from './assets/tech_logo/scikit-learn.png';
-import tensorflowLogo from './assets/tech_logo/tensorflow.png';
+import tensorflowLogo from './assets/tech_logo/tensorFlow.png';
 import kerasLogo from './assets/tech_logo/keras.png';
 import pytorchLogo from './assets/tech_logo/pytorch.png';
 import xgboostLogo from './assets/tech_logo/xgboost.png';
 import colabLogo from './assets/tech_logo/googlecollab.png';
-import jupyterLogo from './assets/tech_logo/jupyter.png'; // Ensure the file exists and is correct
+import jupyterLogo from './assets/tech_logo/jupyter.png';
 import opencvLogo from './assets/tech_logo/opencv.png';
 import numpyLogo from './assets/tech_logo/numpy.png';
 import pandasLogo from './assets/tech_logo/pandas.png';
