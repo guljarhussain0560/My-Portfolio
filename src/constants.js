@@ -238,7 +238,7 @@ export const SkillsInfo = [
           "🎵 VibeTune is a smart music app that suggests songs based on your mood, images, or activity. Just upload a photo or log in, and discover music that matches your vibe!",
         image: githubdetLogo,
         tags: ["HTML", "CSS", "JavaScript", "React JS","JAVA","SPRING BOOT" , "POSTGRESQL","JDBC","REST API","SPRING SECURITY","JPA"],
-        github: "git@github.com:guljarhussain0560/Music.git",
+        github: "https://github.com/guljarhussain0560/Music",
         // paste below live link
         webapp: "paste here",
       },
