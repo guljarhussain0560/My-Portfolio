@@ -1,0 +1,7 @@
+name = "your-project-name"
+compatibility_date = "2025-05-02"
+
+[build]
+command = "npm run build"
+upload.format = "directory"
+upload.dir = "dist"
