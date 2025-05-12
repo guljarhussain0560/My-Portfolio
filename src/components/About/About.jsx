@@ -1,5 +1,5 @@
 import React from 'react';
-import  {TypeAnimation}  from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.png';
 
@@ -20,13 +20,13 @@ const About = () => {
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
             Guljar Hussain
           </h2>
-          {/* Skills Heading with Typing Effect */}
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
+          { /* Skills Heading with Typing Effect */}
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-blue-800 leading-tight">
             <span className="text-white">I am a </span>
             <TypeAnimation
               sequence={[
                 'Java Developer', 2000,
-                'Basicc Frontend Developer', 2000,
+                'Basic Frontend Developer', 2000,
                 'Backend Developer', 2000,
                 'Machine Learning Enthusiast', 2000,
                 'Data Science Enthusiast', 2000,
@@ -35,11 +35,11 @@ const About = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-              style={{ display: 'inline-block', color: '#8245ec' }}
+              style={{ display: 'inline-block', color: '#1E40AF' }}
             />
           </h3>
           {/* About Me Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-lg text-white mb-10 mt-8 leading-relaxed">
             I am a passionate Java Developer and versatile Backend Developer with a strong foundation in software engineering principles. With hands-on experience in both backend systems and basic frontend development, I build reliable and efficient web applications. As a Machine Learning and Data Science Enthusiast, I enjoy exploring intelligent solutions and integrating data-driven insights into my projects. Beyond development, I thrive as a Coder who constantly learns and adapts to new technologies to deliver impactful and optimized solutions.
 
           </p>
@@ -50,8 +50,8 @@ const About = () => {
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-              background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-              boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
+              background: 'linear-gradient(90deg, #1E40AF, #2563EB)', // Blue-800 gradient
+              boxShadow: '0 0 2px #1E40AF, 0 0 2px #1E40AF, 0 0 40px #1E40AF',
             }}
           >
             DOWNLOAD RESUME
@@ -61,13 +61,19 @@ const About = () => {
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
+            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] rounded-full"
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}
             scale={1.05}
             transitionSpeed={1000}
             gyroscope={true}
+            style={{
+              border: '4px solid #2563EB', // Blue-700 border
+              width: '100%',
+              height: '100%',
+              borderRadius: '50%',
+            }}
           >
             <img
               src={profileImage}

@@ -71,15 +71,8 @@ import collegeLogo from './assets/education_logo/college.png';
 import universityLogo from './assets/education_logo/university.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import githubdetLogo from './assets/work_logo/music.png';
+
 
 export const SkillsInfo = [
     {
@@ -233,12 +226,12 @@ export const SkillsInfo = [
     export const projects = [
       {
         id: 0,
-        title: "VibeTune – Music that Matches Your Mood Using AI",
+        title: "Music Vibes – Music that Matches Your Mood Using AI",
         description:
-          "🎵 VibeTune is a smart music app that suggests songs based on your mood, images, or activity. Just upload a photo or log in, and discover music that matches your vibe!",
+          "🎵 Music Vibes is a smart music app that suggests songs based on your mood, images, or activity. Just upload a photo or log in, and discover music that matches your vibe!",
         image: githubdetLogo,
         tags: ["HTML", "CSS", "JavaScript", "React JS","JAVA","SPRING BOOT" , "POSTGRESQL","JDBC","REST API","SPRING SECURITY","JPA"],
-        github: "https://github.com/guljarhussain0560/Music",
+        github: "https://github.com/guljarhussain0560/MusicApp",
         // paste below live link
         webapp: "paste here",
       },

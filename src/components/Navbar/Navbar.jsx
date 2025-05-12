@@ -41,19 +41,19 @@ const Navbar = () => {
             <div className='text-white py-5 flex justify-between items-center'>
                 {/* Logo */}
                 <div className="text-lg font-semibold cursor-pointer">
-                    <span className="text-[#8245ec]">&lt;</span>
+                    <span className="text-blue-900">&lt;</span>
                     <span className="text-white">Guljar</span>
-                    <span className="text-[#8245ec]">/</span>
+                    <span className="text-blue-900">/</span>
                     <span className="text-white">Hussain</span>
-                    <span className="text-[#8245ec]">&gt;</span>
+                    <span className="text-blue-900">&gt;</span>
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex space-x-8 text-gray-300">
+                <ul className="hidden md:flex space-x-8 text-white">
                     {menuItems.map((item) => (
                         <li
                             key={item.id}
-                            className={`cursor-pointer hover:text-[#8245ec] ${activeSection === item.id ? "text-[#8245ec]" : ""
+                            className={`cursor-pointer hover:text-blue-900 ${activeSection === item.id ? "text-[#8245ec]" : ""
                                 }`}
                         >
                             <button onClick={() => handleMenuItemClick(item.id)}>
@@ -69,7 +69,7 @@ const Navbar = () => {
                         href="https://github.com/guljarhussain0560"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-300 hover:text-[#8245ec]"
+                        className="text-white hover:text-blue-900"
                     >
                         <FaGithub size={24} />
                     </a>
@@ -77,7 +77,7 @@ const Navbar = () => {
                         href="https://www.linkedin.com/in/guljar-hussain-7953a9243/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-gray-300 hover:text-[#8245ec]"
+                        className="text-white hover:text-blue-900"
                     >
                         <FaLinkedin size={24} />
                     </a>
@@ -87,12 +87,12 @@ const Navbar = () => {
                 <div className="md:hidden">
                     {isOpen ? (
                         <FiX
-                            className="text-3xl text-[#8245ec] cursor-pointer"
+                            className="text-3xl text-blue-900 cursor-pointer"
                             onClick={() => setIsOpen(false)}
                         />
                     ) : (
                         <FiMenu
-                            className="text-3xl text-[#8245ec] cursor-pointer"
+                            className="text-3xl text-blue-900 cursor-pointer"
                             onClick={() => setIsOpen(true)}
                         />
                     )}
@@ -101,12 +101,12 @@ const Navbar = () => {
 
             {/* Mobile Menu Items */}
             {isOpen && (
-                <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050420] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
-                    <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
+                <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-blue-950 bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
+                    <ul className="flex flex-col items-center space-y-4 py-4 text-white">
                         {menuItems.map((item) => (
                             <li
                                 key={item.id}
-                                className={`cursor-pointer hover:text-white ${activeSection === item.id ? "text-[#8245ec]" : ""
+                                className={`cursor-pointer hover:text-white ${activeSection === item.id ? "text-blue-900" : ""
                                     }`}
                             >
                                 <button onClick={() => handleMenuItemClick(item.id)}>
@@ -119,7 +119,7 @@ const Navbar = () => {
                                 href="https://github.com/guljarhussain0560"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-300 hover:text-white"
+                                className="text-white hover:text-white"
                             >
                                 <FaGithub size={24} />
                             </a>
@@ -127,7 +127,7 @@ const Navbar = () => {
                                 href="https://www.linkedin.com/in/guljar-hussain-7953a9243/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-300 hover:text-white"
+                                className="text-white hover:text-white"
                             >
                                 <FaLinkedin size={24} />
                             </a>
@@ -135,14 +135,14 @@ const Navbar = () => {
                                 href="https://x.com/guljar7865?t=AX35zw00fBhMwXEn7kOmnA&s=09"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-300 hover:text-white">
+                                className="text-white hover:text-white">
                                 <FaTwitter size={24} />
                             </a>
                             <a
                                 href="https://www.facebook.com/share/19DtzznsJy/"
                                 target='_blank'
                                 rel="noopener noreferrer"
-                                className="text-gray-300 hover:text-white">
+                                className="text-white hover:text-white">
                                 <FaFacebook size={24} />
                             </a>
 
