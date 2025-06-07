@@ -233,7 +233,7 @@ export const SkillsInfo = [
         tags: ["HTML", "CSS", "JavaScript", "React JS","JAVA","SPRING BOOT" , "POSTGRESQL","JDBC","REST API","SPRING SECURITY","JPA"],
         github: "https://github.com/guljarhussain0560/MusicApp",
         // paste below live link
-        webapp: "paste here",
+        webapp: "http://musicvibes-bucket.s3-website-us-east-1.amazonaws.com",
       },
 
     ];  
